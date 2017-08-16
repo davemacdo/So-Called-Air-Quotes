@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'airquote_icons';
+  src:  url('airquote_icons.eot?92dpp8');
+  src:  url('airquote_icons.eot?92dpp8#iefix') format('embedded-opentype'),
+    url('airquote_icons.ttf?92dpp8') format('truetype'),
+    url('airquote_icons.woff?92dpp8') format('woff'),
+    url('airquote_icons.svg?92dpp8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"], span.airquote:before, span.airquote:after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'airquote_icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-air-filled-start:before {
+  content: "\e900";
+}
+.icon-air-filled-end:before {
+  content: "\e901";
+}
+.icon-air-open-start:before {
+  content: "\e902";
+}
+.icon-air-open-end:before {
+  content: "\e903";
+}
+
+span.airquote.open:before {
+	content: "\e902";
+}
+span.airquote.open:after {
+	content: "\e903";
+}
+span.airquote.filled:before {
+	content: "\e900";
+}
+span.airquote.filled:after {
+	content: "\e901";
+}
